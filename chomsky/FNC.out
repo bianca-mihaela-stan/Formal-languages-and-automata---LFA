@@ -1,0 +1,51 @@
+Dupa eliminarea l-productiilor:
+Nr. neterminale: 5
+S A B C $ 
+Nr. terminale: 4
+a b c d 
+Simbol de start: $
+Nr. productii: 12
+S -> AB aSd abcd AC 
+A -> C a $ 
+B -> BabBbB $ 
+C -> Cc c 
+$ -> S 
+
+
+Dupa eliminarea l-productiilor:
+Nr. neterminale: 5
+S A B C $ 
+Nr. terminale: 4
+a b c d 
+Simbol de start: $
+Nr. productii: 22
+S -> AB aSd abcd AC 
+A -> a Cc c AB aSd abcd AC 
+B -> BabBbB AB aSd abcd AC 
+C -> Cc c 
+$ -> AB aSd abcd AC 
+
+
+Nr. neterminale: 17
+S A B C E F G H I K L N P Q T W X 
+Nr. terminale: 4
+a b c d 
+Simbol de start: $
+Nr. productii: 34
+S -> AB AH AI AC 
+A -> a CF c AB AH AK AC 
+B -> BL AB AH AN AC 
+C -> CF c 
+E -> b 
+F -> c 
+G -> d 
+H -> SG 
+I -> EQ 
+K -> EQ 
+L -> AT 
+N -> EQ 
+P -> EQ 
+Q -> FG 
+T -> EW 
+W -> BX 
+X -> EB 

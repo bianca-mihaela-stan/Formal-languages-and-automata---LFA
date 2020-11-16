@@ -1,0 +1,6 @@
+CFG =>
+S->AB|aSd|abcd|AC
+A->C|a|@
+B->BabBbB|@
+C->Cc|c
+
